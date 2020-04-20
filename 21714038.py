@@ -174,7 +174,7 @@ def menu(nExpediente):
           "F: Ejercicio F\n"
           "G: Ejercicio G\n"
           "S: Salir\n")
-    opcion = input(unicode("Elija una opcion:"))
+    opcion = input("Elija una opcion:")
     
     if opcion == "B" or opcion == 'b':
         ejB()
